@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concatenação</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+    <h3>Concatenação de Campos</h3>
+
+    <form name="FormConcatena" action="" method="post">
+       Digite o Nome:<input type="text" name="f_nome" onkeypress="if(event.keyCode == 13) { concatena(); return false; }" /><br/>
+       Digite o Sobrenome:<input type="text" name="f_sobrenome" onkeypress="if(event.keyCode == 13) { concatena(); return false; }" /><br/>
+        <input class="botao1" type="button" name="btn_concatena" value="Concatenar" onclick="concatena()" />
+        <input class="botao2" type="reset" name="btn_cancela" value="Cancelar"/>
+    </form>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

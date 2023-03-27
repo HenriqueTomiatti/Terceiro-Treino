@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.botao1, .botao2 {
+    color: blueviolet;
+    padding: 5px;
+    margin-right: 10px;
+    margin: 10px;
+
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #e9ebff
+}
+
+h3 {
+    padding: 10px;
+}
+
